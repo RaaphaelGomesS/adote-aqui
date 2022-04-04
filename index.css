@@ -48,6 +48,65 @@ a:hover{
     color: blue;
 }
 
+.footer{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+article{
+    background-image: url(https://www.itl.cat/pngfile/big/244-2441590_running-dog-wallpaper-cachorrinho-plano-de-fundo.jpg);
+    width: 100%;
+    height: 862px;
+    background-position: left;
+    } 
+    
+.text{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    text-align: justify;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.main{
+    padding: 15px;
+}
+
+.sec{
+    text-indent: 40px;
+}
+
+.footer{
+    line-height: 30px;
+}
+
+h2:hover{
+    color: blueviolet;
+}
+
+@media (max-width:1328px){
+    article{
+        background-position: center;
+    }
+    .text{
+        width: 600px;
+        padding-left: 50px;
+    }
+ }
+
+@media(max-width: 586px){
+    article{
+        background-size: cover;
+
+    }
+}
+    
+
+
 @media (max-width: 434px){
     .logo{
         display: none;
